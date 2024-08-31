@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: debug-busybox
+spec:
+  containers:
+    - name: busybox
+      image: busybox:1.35
+      command:
+        - sleep
+        - "3600"  # Run for 1 hour
+      stdin: true
+      tty: true
+
