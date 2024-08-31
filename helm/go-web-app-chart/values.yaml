@@ -8,7 +8,7 @@ image:
   repository: amanudeen/go-web-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "10644792711"
+  tag: "10644988991"
 
 ingress:
   enabled: false
