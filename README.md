@@ -1,4 +1,5 @@
- # We will implement End to End DevOps on a Golang web application. We will implement the following things 
+ # We will implement End to End DevOps on a Golang web application. 
+ We will implement the following things 
 - Containerization (Multi Stage Docker Build)
 - EKS cluster using AWS CLI
 - Creating Kubernetes Manifests
